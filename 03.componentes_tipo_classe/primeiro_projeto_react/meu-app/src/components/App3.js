@@ -4,7 +4,7 @@ import React from "react";
 class App3 extends React.Component{
     constructor(props){
         super(props);
-        this.state = {nome: '', idade: 26};
+        this.state = {nome: ''};
     }
 
     changeName = (event)=>{
